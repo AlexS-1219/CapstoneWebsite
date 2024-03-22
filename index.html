@@ -1,106 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Basic Website</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-            background-color: #f7f7f7;
-            transition: background-color 0.5s ease;
-        }
-
-        header {
-            text-align: center;
-            background-color: #333;
-            color: #fff;
-            padding: 10px;
-        }
-
-        main {
-            margin-top: 20px;
-        }
-
-        section {
-            background-color: #fff;
-            padding: 15px;
-            margin-bottom: 15px;
-            border-radius: 5px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        }
-
-        h2 {
-            color: #333;
-        }
-
-        ul {
-            list-style-type: none;
-            padding: 0;
-        }
-
-        footer {
-            text-align: center;
-            padding: 10px;
-            background-color: #333;
-            color: #fff;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-        }
-
-        button {
-            padding: 10px;
-            background-color: #333;
-            color: #fff;
-            border: none;
-            cursor: pointer;
-        }
-    </style>
+    <title>Pathogen Detection System Project</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
 
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Homepage</a></li>
+            <li><a href="background.html">Background/About</a></li>
+            <li><a href="electrospray-analysis.html">Electrospray Analysis</a></li>
+            <li><a href="ai-detection.html">AI Detection Captcha</a></li>
+            <li><a href="site-locations.html">Potential Pilot Site Locations</a></li>
+        </ul>
+    </nav>
+
+    <!-- Homepage Content -->
     <header>
-        <h1>CAPSTONE Example Website</h1>
+        <h1>Pathogen Detection System Project</h1>
+        <p>Welcome to the homepage of the Pathogen Detection System Project. Explore the sections to learn more about our work.</p>
     </header>
 
-    <main>
-        <section>
-            <h2>About</h2>
-            <p>This is a simple webpage created with HTML, CSS, and JavaScript. We will be discussing Electrospray technology.</p>
-        </section>
-
-        <section>
-            <h2>Stuff & Things</h2>
-            <ul>
-                <li>Data</li>
-                <li>Locations</li>
-                <li>Charts</li>
-            </ul>
-        </section>
-
-        <section>
-            <h2>Change Background Color</h2>
-            <button onclick="changeBackgroundColor()">Change Color</button>
-        </section>
-    </main>
-
+    <!-- Footer -->
     <footer>
-        <p>&copy; Spring 2024 - Capstone course team three. All rights reserved.</p>
+        <p>Pathogen Detection System Project &copy; 2024</p>
     </footer>
 
-    <script>
-        function changeBackgroundColor() {
-            const body = document.body;
-            const currentColor = body.style.backgroundColor;
-            const newColor = currentColor === 'blue' ? '#f7f7f7' : 'blue';
-            body.style.backgroundColor = newColor;
-        }
-    </script>
-
+<script src="script.js"></script>
 </body>
-
 </html>

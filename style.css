@@ -17,6 +17,10 @@ body, html {
 nav {
     background-color: #333;
     overflow: hidden;
+    position: fixed; /* This will make the navbar stay at the top */
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Ensures the nav bar is above other content */
 }
 
 nav ul {
@@ -48,6 +52,7 @@ header {
     color: #fff;
     padding: 30px 0;
     text-align: center;
+    margin-top: 115px;
 }
 
 header h1 {
@@ -66,9 +71,20 @@ section {
 #project-overview {
     background-color: white;
     color: black;
+    margin-bottom: 20px;
 }
 
 #project-overview p {
+    margin-bottom: 20px; /* Adjust the value as needed */
+}
+
+#site-locations {
+    background-color: white;
+    color: black;
+    margin-bottom: 20px;
+}
+
+#site-locations p {
     margin-bottom: 20px; /* Adjust the value as needed */
 }
 

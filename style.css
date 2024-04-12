@@ -142,3 +142,83 @@ main {
     }
 }
 img {float: left;}
+
+/* Flexbox Setup */
+
+.container_for_quotes_and_images
+ {
+     display: flex; 
+     align-items: top; 
+     justify-content: top; 
+     width:33%;
+     height:500px;
+     background-color:antiquewhite
+ }
+
+ .image
+ {
+     width: 100px;
+     height:100px;
+ }
+
+ .quote 
+ {
+     
+     font-size: 1em;
+     width:400px;
+     height:500px;
+ }
+
+ .container_for_quotes_and_images2
+ {
+     display: flex; 
+     align-items: top; 
+     justify-content: left; 
+     width:66%;
+     padding-left: 3px;
+ }
+
+ .quote2
+ {
+     font-size: 1.5em;
+     width:fit-content;
+ }
+
+ .image2
+ {
+     width: 100px;
+     height:100px;
+ }
+
+ .wrapper
+ {
+     display: flex; 
+     align-items: left; 
+     justify-content: left;
+ }
+
+ .wrapper2
+ {
+     display: flex; 
+     align-items: left; 
+     justify-content: left;
+     padding-top:15px;
+     padding-bottom:15px;
+     width:100%
+ }
+
+ .container-for-quickjump
+ {
+     display: flex; 
+     align-items: center; 
+     justify-content: center; 
+     width: 33%;
+ }
+
+ .container-for-synopses
+ {
+     display: flex; 
+     align-items: top; 
+     justify-content: top;
+     width:66%;
+ }

@@ -65,7 +65,7 @@ header h1 {
 section {
     padding: 20px;
     margin-top: 20px;
-    background-color: #000080; /* Dark blue background */
+    background-color: #000080;
     color: white; /* Change text color for visibility on dark background */
     clear: both; /* Clear any floats */
 }
@@ -77,7 +77,25 @@ section {
 }
 
 #project-overview p {
-    margin-bottom: 20px; /* Adjust the value as needed */
+    margin-bottom: 20px;
+}
+
+#heatmaps div {
+    background-color: white;
+    color: black;
+    margin-bottom: 20px;
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+#heatmaps {
+    display: flex;
+    justify-content: space-around;
+}
+
+#heatmaps p {
+    margin-bottom: 20px;
 }
 
 #site-locations {
@@ -87,14 +105,13 @@ section {
 }
 
 #site-locations p {
-    margin-bottom: 20px; /* Adjust the value as needed */
+    margin-bottom: 20px;
 }
 
-/* Footer styling */
 footer {
     text-align: center;
     padding: 10px 0;
-    background-color: #000; /* Darker black background */
+    background-color: #000;
     color: white;
     width: 100%;
     position: relative; /* Change from absolute to avoid overlap with other content */

@@ -80,23 +80,25 @@ section {
     margin-bottom: 20px;
 }
 
-#heatmaps div {
-    background-color: white;
-    color: black;
-    margin-bottom: 20px;
-    float: left;
-    width: 50%;
-    box-sizing: border-box;
-}
-
 #heatmaps {
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#heatmaps .tableauPlaceholder {
+    flex: 1 0 45%;
+    margin: 10px;
+    box-sizing: border-box;
 }
 
 #heatmaps p {
-    margin-bottom: 20px;
+    width: 100%;
+    text-align: center;
+    margin: 20px 0;
 }
+
 
 #site-locations {
     background-color: white;

@@ -98,12 +98,16 @@ section {
 }
 
 .tableauPlaceholder {
-    flex: 1 0 40%;
-    margin: 5px;
+    flex: 1 0 45%;
+    margin: 10px;
     box-sizing: border-box;
-    height: 400px; 
+    height: 400px;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 10px;
     overflow: hidden;
 }
+
 
 
 #site-locations {

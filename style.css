@@ -81,24 +81,27 @@ section {
 }
 
 #heatmaps {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#heatmaps h2, #heatmaps p {
+    width: 100%;
+    margin: 10px 0;
+}
+
+.heatmap-container {
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
 }
 
-#heatmaps .tableauPlaceholder {
-    flex: 1 0 45%;
+.tableauPlaceholder {
+    flex: 1 0 45%;  /* Adjust this value based on actual content width or preference */
     margin: 10px;
     box-sizing: border-box;
 }
-
-#heatmaps p {
-    width: 100%;
-    text-align: center;
-    margin: 20px 0;
-}
-
 
 #site-locations {
     background-color: white;

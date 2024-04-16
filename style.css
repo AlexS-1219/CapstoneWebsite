@@ -98,10 +98,13 @@ section {
 }
 
 .tableauPlaceholder {
-    flex: 1 0 45%;  /* Adjust this value based on actual content width or preference */
-    margin: 5px;
+    flex: 1 0 45%;
+    margin: 10px;
     box-sizing: border-box;
+    height: 400px; 
+    overflow: hidden;
 }
+
 
 #site-locations {
     background-color: white;

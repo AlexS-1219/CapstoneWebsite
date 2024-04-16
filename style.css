@@ -82,12 +82,12 @@ section {
 
 #heatmaps {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 #heatmaps h2, #heatmaps p {
     width: 100%;
-    margin: 10px 0;
+    margin: 5px 0;
 }
 
 .heatmap-container {
@@ -99,7 +99,7 @@ section {
 
 .tableauPlaceholder {
     flex: 1 0 45%;  /* Adjust this value based on actual content width or preference */
-    margin: 10px;
+    margin: 5px;
     box-sizing: border-box;
 }
 

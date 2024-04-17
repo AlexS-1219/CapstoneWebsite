@@ -319,4 +319,21 @@ img {float: left;}
      width:100%;
 }
 
+/* Location Tab Flexboxes */
+.container-for-location-images
+{
+    width: 33%;
+    display: flex; 
+     align-items: center; 
+     justify-content: center;
+}
+
+.container-for-gmap
+{
+    width: 100%;
+    display: flex; 
+     align-items: center; 
+     justify-content: center;
+}
+
 

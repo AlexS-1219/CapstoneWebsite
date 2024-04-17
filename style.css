@@ -13,6 +13,8 @@ body, html {
     background-color: #f4f4f4;
 }
 
+
+
 /* Navigation bar styling */
 nav {
     background-color: #333;
@@ -45,6 +47,10 @@ nav ul li a:hover,
 nav ul li a:focus {
     background-color: #555;
 }
+
+
+
+
 
 /* Header styling */
 header {
@@ -79,6 +85,10 @@ section {
 #project-overview p {
     margin-bottom: 20px;
 }
+
+
+
+
 
 #heatmaps {
     background-color: white;
@@ -170,7 +180,7 @@ main {
 }
 img {float: left;}
 
-/* Flexbox Setup */
+/* Flexbox Setup For Index / Home */
 
 .container_for_quotes_and_images
  {
@@ -249,3 +259,9 @@ img {float: left;}
      justify-content: top;
      width:66%;
  }
+
+
+
+
+
+

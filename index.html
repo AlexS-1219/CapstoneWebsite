@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pathogen Detection System Project</title>
     <link rel="stylesheet" href="style.css">
-   
+    <script src="https://cdn.jsdelivr.net/npm/darkreader@4.9.83/darkreader.min.js"></script>
 </head>
 <body>
 
@@ -18,9 +18,40 @@
             <li><a href="electrospray-analysis.html">Electrospray Analysis</a></li>
             <li><a href="ai-detection.html">AI Detection Captcha</a></li>
             <li><a href="locations.html">Potential Pilot Locations</a></li>
+            <label class="switch">
+                <input id="darkModeToggle" type="checkbox">
+                <span class="slider round"></span>
+              </label>
         </ul>
     </nav>
+    
+  <!-- Script to toggle Dark Reader -->
+  <script>
+    const darkModeToggle = document.getElementById('darkModeToggle');
 
+    // Check if toggle state is stored in local storage
+    const darkModeState = localStorage.getItem('darkMode');
+
+    // If toggle state is stored, set the toggle accordingly
+    if (darkModeState === 'enabled') {
+      darkModeToggle.checked = true;
+      DarkReader.enable();
+    } else {
+      darkModeToggle.checked = false;
+      DarkReader.disable();
+    }
+
+    darkModeToggle.addEventListener('change', () => {
+      if (darkModeToggle.checked) {
+        DarkReader.enable();
+        localStorage.setItem('darkMode', 'enabled');
+      } else {
+        DarkReader.disable();
+        localStorage.setItem('darkMode', 'disabled');
+      }
+    });
+  </script>
+  
     <!-- Homepage Content -->
     <header>
         <h1>Pathogen Detection System Project</h1>
@@ -164,8 +195,6 @@
     <footer>
         <p>© 2024 Pathogen Detection System Project. All rights reserved.</p> Contact: <a href="mailto:JoeBangosemail@email.com">JoeBangosemail@email.com</a>
     </footer>
-
-
     <script src="script.js"></script>
 </body>
 </html>

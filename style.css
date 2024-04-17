@@ -260,8 +260,63 @@ img {float: left;}
      width:66%;
  }
 
+ 
+/* Electrospray Flexboxes */
 
+.gif 
+{
+    height: 500px;
+    width: 700px;
+}
 
+.container-for-gif
+ {
+     display: flex; 
+     align-items: center; 
+     justify-content: center; 
+     width: 50%;
+     height:500px
+ }
 
+ .container-for-breakdown
+ {
+     display: flex; 
+     align-items: center; 
+     justify-content: center;
+     width:100%;
+     text-align:center
+    
+ }
+
+ .diagram
+ {
+    height:800px;
+    width:800px;
+    
+ }
+ 
+ .container-for-diagram
+ {
+     display: flex; 
+     align-items: center; 
+     justify-content: center;
+     width:100%;
+ }
+
+ .alt-container-for-breakdown
+ {
+     display: flex; 
+     align-items: top; 
+     justify-content: top;
+     width:33%;
+ }
+
+ .electro-wrapper
+{
+    display: flex; 
+     align-items: center; 
+     justify-content: center;
+     width:100%;
+}
 
 

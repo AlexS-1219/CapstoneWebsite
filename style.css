@@ -385,7 +385,7 @@ img {float: left;}
      justify-content: center;
 }
 
-<<<<<<< HEAD
+
 .container-for-subsection
 {
     width: 25%;
@@ -401,8 +401,6 @@ img {float: left;}
      align-items: center; 
      justify-content: center;
 }
-
-=======
  /* CSS for the switch */
     /* Rounded switch */
     .switch {
@@ -462,4 +460,4 @@ img {float: left;}
       .slider.round:before {
         border-radius: 50%;
       }
->>>>>>> 2e2e68f2d2c717d7261dc398392e5749341ef1ff
+

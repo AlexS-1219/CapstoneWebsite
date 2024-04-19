@@ -200,7 +200,31 @@
         </div>
     </div>
     
+    <script>
+        const darkModeToggle = document.getElementById('darkModeToggle');
     
+        // Check if toggle state is stored in local storage
+        const darkModeState = localStorage.getItem('darkMode');
+    
+        // If toggle state is stored, set the toggle accordingly
+        if (darkModeState === 'enabled') {
+          darkModeToggle.checked = true;
+          DarkReader.enable();
+        } else {
+          darkModeToggle.checked = false;
+          DarkReader.disable();
+        }
+    
+        darkModeToggle.addEventListener('change', () => {
+          if (darkModeToggle.checked) {
+            DarkReader.enable();
+            localStorage.setItem('darkMode', 'enabled');
+          } else {
+            DarkReader.disable();
+            localStorage.setItem('darkMode', 'disabled');
+          }
+        });
+      </script>
         <!-- Footer -->
     <footer>
         <p>© 2024 Pathogen Detection System Project. All rights reserved.</p> Contact: <a href="mailto:JoeBangosemail@email.com">JoeBangosemail@email.com</a>

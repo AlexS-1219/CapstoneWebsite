@@ -399,8 +399,35 @@ img {float: left;}
     width: 75%;
     display: flex; 
      align-items: center; 
-     justify-content: center;
+     justify-content: top;
 }
+
+.location-wrapper
+{
+    display: flex; 
+     align-items: left; 
+     justify-content: left;
+     padding-bottom: 10px;
+     padding-top: 10px;
+     border-bottom: 3px solid #000;
+}
+
+.exp
+{
+    width: 500px;
+    height:fit-content;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size:large;
+}
+
+
+
+
+
+
+
+
  /* CSS for the switch */
     /* Rounded switch */
     .switch {

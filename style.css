@@ -182,14 +182,43 @@ img {float: left;}
 
 /* Flexbox Setup For Index / Home */
 
+
+/* Text Overflow for Index */
+
+.top-wrapper
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height:125px;
+}
 .container_for_quotes_and_images
  {
      display: flex; 
      align-items: top; 
-     justify-content: top; 
+     justify-content: left; 
      width:33%;
-     height:500px;
+     height:125px;
      background-color:antiquewhite
+ }
+
+ .container-extra-quotes-left
+ {
+     display: flex; 
+     align-items: top; 
+     justify-content: left; 
+     width:33%;
+     height:fit-content;
+ }
+
+ .container-extra-quotes-right
+ {
+     display: flex; 
+     align-items: top; 
+     justify-content: left; 
+     width:66%;
+     height:fit-content;
  }
 
  .image
@@ -203,7 +232,8 @@ img {float: left;}
      
      font-size: 1em;
      width:400px;
-     height:500px;
+     height:125px;
+     padding-left:5px;
  }
 
  .container_for_quotes_and_images2
@@ -213,12 +243,15 @@ img {float: left;}
      justify-content: left; 
      width:66%;
      padding-left: 3px;
+     background-color:antiquewhite
  }
 
  .quote2
  {
      font-size: 1.5em;
      width:fit-content;
+     height: 125px;
+     padding-left:5px;
  }
 
  .image2
@@ -232,6 +265,22 @@ img {float: left;}
      display: flex; 
      align-items: left; 
      justify-content: left;
+ }
+
+ .styled-wrapper
+ {
+     display: flex; 
+     align-items: left; 
+     justify-content: left;
+     background-image: none;
+ }
+
+ .quote3
+ {
+    font-size: 1.5em;
+    width:fit-content;
+    height:fit-content;
+    padding-left:5px
  }
 
  .alt_wrapper
@@ -336,4 +385,19 @@ img {float: left;}
      justify-content: center;
 }
 
+.container-for-subsection
+{
+    width: 25%;
+    display: flex; 
+     align-items: center; 
+     justify-content: center;
+}
+
+.container-for-exp
+{
+    width: 75%;
+    display: flex; 
+     align-items: center; 
+     justify-content: center;
+}
 

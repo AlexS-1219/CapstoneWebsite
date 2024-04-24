@@ -138,9 +138,7 @@ footer {
     background-color: #000;
     color: white;
     width: 100%;
-    position: relative; /* Change from absolute to avoid overlap with other content */
-    bottom: 0;
-    clear: both; /* Clear any floats */
+    margin-top: auto;
 }
 
 /* Ensure content doesn't overlap with footer */

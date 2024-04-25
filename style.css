@@ -361,6 +361,7 @@ img {float: left;}
 
  .breakdown
  {
+    display: flex;
     font-size: x-large;
     height:fit-content;
     padding-left: 3px;

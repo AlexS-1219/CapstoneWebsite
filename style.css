@@ -328,7 +328,7 @@ img {float: left;}
      flex-direction: column;
      align-items: center; 
      margin-bottom: 20px;
-     width: 50%;
+     margin-inline: 5%;
  }
 
  .container-for-breakdown
@@ -336,7 +336,8 @@ img {float: left;}
      display: flex; 
      justify-content: center;
      width:65%;
-     height: 100%
+     height: 100%;
+     max-width: 1500px;    
      
     
  }

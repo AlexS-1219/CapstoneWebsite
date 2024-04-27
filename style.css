@@ -139,6 +139,7 @@ footer {
     color: white;
     width: 100%;
     margin-top: auto;
+    font-weight: bold;
 }
 
 /* Ensure content doesn't overlap with footer */
@@ -198,29 +199,33 @@ img {float: left;}
 .container_for_quotes_and_images
  {
      display: flex; 
-     align-items: top; 
-     justify-content: left; 
-     width:33%;
+     align-items: center;
+     text-align: center;
+     justify-content: center; 
+     width:34%;
      height:fit-content;
-     background-color:antiquewhite
+     background-color:antiquewhite;
+     padding-inline-end: 70px;
  }
 
  .container-extra-quotes-left
  {
-     display: flex; 
-     align-items: top; 
-     justify-content: left; 
-     width:33%;
-     height:auto;
- }
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    width:33%;
+    text-align: center;
+    padding-inline: 70px;
+}
 
  .container-extra-quotes-right
  {
      display: flex; 
-     align-items: top; 
-     justify-content: left; 
+     align-items: center; 
+     justify-content: center; 
      width:66%;
-     height:auto
+     text-align: center;
+     padding-inline: 100px;
  }
 
  .image
@@ -232,7 +237,7 @@ img {float: left;}
  .quote 
  {
      
-     font-size: 1em;
+     font-size: 1.5em;
      width:400px;
      height:125px;
      padding-left:5px;
@@ -242,11 +247,12 @@ img {float: left;}
  .container_for_quotes_and_images2
  {
      display: flex; 
-     align-items: top; 
-     justify-content: left; 
-     width:66%;
-     padding-left: 3px;
-     background-color:antiquewhite;
+     align-items: center; 
+     text-align: center;
+     justify-content: center; 
+     width:67%;
+     background-color: antiquewhite;
+     padding-inline: 70px;
  }
 
  .quote2
@@ -254,7 +260,7 @@ img {float: left;}
      font-size: 1.5em;
      width:fit-content;
      height: 125px;
-     padding-left:5px;
+     padding-inline:30px;
      height:fit-content
  }
 
@@ -268,16 +274,18 @@ img {float: left;}
  {
      display: flex; 
      align-items: left; 
-     justify-content: left;
+     justify-content: center;
      height:fit-content
  }
 
  .styled-wrapper
  {
      display: flex; 
-     align-items: left; 
-     justify-content: left;
+     align-items: center; 
+     justify-content: center;
      background-image: none;
+     padding-top: 20px;
+     padding-bottom: 20px;
  }
 
  .quote3
@@ -285,17 +293,17 @@ img {float: left;}
     font-size: 1.5em;
     width:fit-content;
     height:fit-content;
-    padding-left:5px
  }
 
  .alt_wrapper
  {
      display: flex; 
-     align-items: left; 
-     justify-content: left;
-     padding-top:15px;
-     padding-bottom:15px;
-     width:100%
+     align-items: center; 
+     justify-content: center;
+     padding:15px;
+     width:100%;
+     border-style: dashed;
+     border-width: thin;
  }
 
  .container-for-quickjump
@@ -309,9 +317,14 @@ img {float: left;}
  .container-for-synopses
  {
      display: flex; 
-     align-items: top; 
-     justify-content: top;
+     align-items: center; 
+     justify-content: start;
      width:66%;
+     padding-inline: 150px;
+     text-align: center;
+     border-left-style: dashed;
+     border-left-width: thin;
+     font-weight: bold;
  }
 
  

@@ -80,14 +80,82 @@ section {
     clear: both; /* Clear any floats */
 }
 
-#project-overview {
+#ai-overview1 {
+    display: flex;
+    flex-direction: column;
     background-color: white;
     color: black;
-    margin-bottom: 20px;
+    padding-inline: 5%;
+    text-align: center;
 }
 
-#project-overview p {
-    margin-bottom: 20px;
+#ai-allcontent1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.ai-title1 {
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.ai-content1 {
+    display: flex;
+    text-align: center;
+    
+}
+
+#ai-overview2 {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    color: black;
+    height: fit-content;
+    width: fit-content;
+    float: right;
+    padding: 0 20px;
+    box-sizing: border-box;
+    text-align: center;
+    padding-inline: 90px;
+    padding-top: 20px;
+}
+
+#ai-overview-img {
+    background-color: white;
+    color: black;
+    height: 50%;
+    width: fit-content;
+    float: left;
+    box-sizing: border-box;
+}
+
+#ai-overview p {
+    text-align: center;
+}
+
+#ai-allcontent2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-content: center;
+    padding-inline: 100px;
+}
+
+.ai-title2 {
+    text-align: center;
+    font-size: large;
+    text-decoration: underline;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.ai-content2 {
+    display: flex;
+    text-align: center;
+    
 }
 
 
@@ -151,6 +219,7 @@ body {
 
 main {
     flex: 1;
+    background-color: white;
 }
 
 /* Responsive layout adjustments */

@@ -17,7 +17,7 @@
         <li><a href="ai-detection.html">AI Detection Captcha</a></li>
         <li><a href="locations.html">Potential Pilot Locations</a></li>
         <li style="display: inline-grid;">
-          <span class="dark-mode-text">Dark Mode</span>
+          <span class="dark-mode-text" id="darkModeText">Dark Mode</span>
           <label class="switch">
             <input id="darkModeToggle" type="checkbox">
             <span class="slider round"></span>
@@ -29,6 +29,7 @@
   <!-- Script to toggle Dark Reader -->
   <script>
     const darkModeToggle = document.getElementById('darkModeToggle');
+    const darkModeText = document.getElementById('darkModeText');
 
     // Check if toggle state is stored in local storage
     const darkModeState = localStorage.getItem('darkMode');
@@ -36,9 +37,11 @@
     // If toggle state is stored, set the toggle accordingly
     if (darkModeState === 'enabled') {
       darkModeToggle.checked = true;
+      darkModeText.textContent = "Light";
       DarkReader.enable();
     } else {
       darkModeToggle.checked = false;
+      darkModeText.textContent = "Dark";
       DarkReader.disable();
     }
 
@@ -46,9 +49,11 @@
       if (darkModeToggle.checked) {
         DarkReader.enable();
         localStorage.setItem('darkMode', 'enabled');
+        darkModeText.textContent = "Light";
       } else {
         DarkReader.disable();
         localStorage.setItem('darkMode', 'disabled');
+        darkModeText.textContent = "Dark";
       }
     });
   </script>

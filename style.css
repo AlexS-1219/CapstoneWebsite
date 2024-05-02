@@ -74,7 +74,6 @@ header h1 {
 /* Section styling */
 section {
     padding: 20px;
-    margin-top: 20px;
     background-color: #000080;
     color: white; /* Change text color for visibility on dark background */
     clear: both; /* Clear any floats */
@@ -232,6 +231,7 @@ main {
         display: inline;
         vertical-align: middle;
         justify-items: center;
+        margin-top: -16.1px;
     }
 
     .container {
